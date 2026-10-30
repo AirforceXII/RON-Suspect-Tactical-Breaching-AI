@@ -1,0 +1,122 @@
+[
+  {
+    "path": "docs/images/01-default-squad-breach.jpg",
+    "width": 1574,
+    "height": 833,
+    "bytes": 88123,
+    "format": "JPEG",
+    "sha256": "cc1e8150b2f281042fe2f0d00b2fcdd8145ac0dbd7b5393fb0019d939c4e74fc",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/01-default-squad-solo.jpg",
+    "width": 1574,
+    "height": 833,
+    "bytes": 87788,
+    "format": "JPEG",
+    "sha256": "78dcc7b2e86e326c683986fd21b7a7e7960062812c2ff629e3d1c80c83ff64c9",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/02-suspect-leader-tag.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 148632,
+    "format": "JPEG",
+    "sha256": "06373922c6a98c291860e306b569c32187b6c36883231d70fbe9ea98c9ced762",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/02-suspect-leader.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 169006,
+    "format": "JPEG",
+    "sha256": "44e9f34148768bff83c35f1e6b4d3a194bc3f2f336daca4d15ec85d7c8212b0b",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/02-suspect-solo-tag.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 142209,
+    "format": "JPEG",
+    "sha256": "30a99f4a898b22dbb3817103b253ced62d852597d209e3684cda3a4b60cdede0",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/02-suspect-solo.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 162338,
+    "format": "JPEG",
+    "sha256": "d0d927f1d4dc9762c99a13c1c35a90ed540c6dbcc8d53b88e643fa98aa6fa1a0",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/02-suspect-squad-actions.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 211061,
+    "format": "JPEG",
+    "sha256": "2fa74a9c54ef873201ee257c6eeca5d7b7f724b90a68e482dfe9b0141cc0ff0c",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/03-hotel-roles.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 165013,
+    "format": "JPEG",
+    "sha256": "23b2f317cb44815d8d4fb7e55502809900496965899e2849029c20eb694cc835",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/04-hotel-speech.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 225853,
+    "format": "JPEG",
+    "sha256": "45ceb256cf750f5918c8b97eee06999b151aaec8e60ce57c23f47b1ba713a985",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/05-hotel-grenades.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 161815,
+    "format": "JPEG",
+    "sha256": "c84860f0e46c97b93d2b78f852d08c334bd493f2a1fe98bcc04d819dcefaa169",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/06-leader-weight.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 157161,
+    "format": "JPEG",
+    "sha256": "586cccb73d2bb68ce7728567e2ae2156ec2eded55d3757c31eaa88856719b7d8",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  },
+  {
+    "path": "docs/images/07-set-can-use-item.jpg",
+    "width": 1707,
+    "height": 912,
+    "bytes": 181226,
+    "format": "JPEG",
+    "sha256": "dd071b653a81d4d252bb77ba94a6aee0be558de79f03604942ab89d0a52f6ce4",
+    "source": "Actual UAssetGUI window capture; original screenshot pixels",
+    "captured_on": "2026-10-30"
+  }
+]

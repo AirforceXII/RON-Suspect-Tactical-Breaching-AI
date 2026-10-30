@@ -1,0 +1,201 @@
+{
+  "scope": "stage12 static field verification, not a new gameplay run",
+  "source_engine": "UE5.3.2",
+  "source_game": "RON 1.5.3",
+  "squad_actions": [
+    {
+      "index": 0,
+      "tag": "Squads.Rally.Attacker",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_Rally.AP_Rally"
+    },
+    {
+      "index": 1,
+      "tag": "Squads.Rally.Support",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_Rally.AP_Rally"
+    },
+    {
+      "index": 2,
+      "tag": "Squads.Rally.Leader",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_CallforHelp.AP_CallforHelp"
+    },
+    {
+      "index": 3,
+      "tag": "Squads.Regroup.Runner",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_Regroup.AP_Regroup"
+    },
+    {
+      "index": 4,
+      "tag": "Squads.Regroup.Target",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_RegroupTarget.AP_RegroupTarget"
+    },
+    {
+      "index": 5,
+      "tag": "Squads.BreachAndClear.Support",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_Breach_Follower.AP_Breach_Follower"
+    },
+    {
+      "index": 6,
+      "tag": "Squads.FallIn.Follower",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_FallIn.AP_FallIn"
+    },
+    {
+      "index": 7,
+      "tag": "Squads.BreachAndClear.Leader",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_Breach_Leader.AP_Breach_Leader"
+    },
+    {
+      "index": 8,
+      "tag": "Squads.BreachAndClear.Solo",
+      "preset": "/Game/Blueprints/AI/ActionPresets/AP_SoloBreach.AP_SoloBreach"
+    }
+  ],
+  "squad_activity_data": [
+    {
+      "index": 0,
+      "class": "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_Rally.BP_Squad_Rally_C"
+    },
+    {
+      "index": 1,
+      "class": "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_ExecuteHostages.BP_Squad_ExecuteHostages_C"
+    },
+    {
+      "index": 2,
+      "class": "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_Regroup.BP_Squad_Regroup_C"
+    },
+    {
+      "index": 3,
+      "class": "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_BreachandClear.BP_Squad_BreachandClear_C"
+    },
+    {
+      "index": 4,
+      "class": "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_SoloBreach.BP_Squad_SoloBreach_C"
+    }
+  ],
+  "hotel_rows": [
+    {
+      "row": "sp_m_shooter_a",
+      "archetype": "/Game/Blueprints/AI/Archetypes/Core/Suspect_Terrorist.Suspect_Terrorist",
+      "roles": [
+        "Squads.Rally.Attacker",
+        "Squads.Rally.Leader",
+        "Squads.Rally.Support",
+        "Squads.Regroup.Runner",
+        "Squads.Regroup.Target",
+        "Squads.BreachAndClear.Leader",
+        "Squads.BreachAndClear.Support",
+        "Squads.BreachAndClear.Solo"
+      ],
+      "speech_handles": [
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01"
+      ],
+      "loadouts": [
+        {
+          "index": 0,
+          "grenades": [
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C"
+          ]
+        },
+        {
+          "index": 1,
+          "grenades": [
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C"
+          ]
+        },
+        {
+          "index": 2,
+          "grenades": [
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C"
+          ]
+        }
+      ]
+    },
+    {
+      "row": "sp_m_shooter_c",
+      "archetype": "/Game/Blueprints/AI/Archetypes/Core/Suspect_Terrorist.Suspect_Terrorist",
+      "roles": [
+        "Squads.Rally.Attacker",
+        "Squads.Rally.Leader",
+        "Squads.Rally.Support",
+        "Squads.Regroup.Runner",
+        "Squads.Regroup.Target",
+        "Squads.BreachAndClear.Leader",
+        "Squads.BreachAndClear.Support",
+        "Squads.BreachAndClear.Solo"
+      ],
+      "speech_handles": [
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01",
+        "TowerMLO_01"
+      ],
+      "loadouts": [
+        {
+          "index": 0,
+          "grenades": [
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C"
+          ]
+        },
+        {
+          "index": 1,
+          "grenades": [
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+            "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C"
+          ]
+        }
+      ]
+    }
+  ],
+  "set_can_use_item": {
+    "json_export_index": 16,
+    "gui_export_number": 17,
+    "expression_types": [
+      "EX_LetBool",
+      "EX_Return",
+      "EX_EndOfScript"
+    ],
+    "variable_path": [
+      "CanUseItem"
+    ],
+    "assignment": "EX_True",
+    "script_bytecode_size": 14
+  },
+  "payload_hashes_verified_against_original_build": true,
+  "complete_context_matches_payload": true,
+  "payload_sha256": {
+    "Content/Blueprints/AI/ActionPresets/AP_Breach_Follower.uasset": "ba4c367a37b9561584c2da7013f0c0afa5314be0ad6ea75efd7b6f7c91479d6b",
+    "Content/Blueprints/AI/ActionPresets/AP_Breach_Follower.uexp": "cd7b1231edba03875ea2f5bc88f6c22bfa61ab2d67fc1512509017589e3d78b0",
+    "Content/Blueprints/AI/ActionPresets/AP_Breach_Leader.uasset": "ea9619fea7fac9b9dab81daf9332da01638f37bbbcd74d53d863515e7cf3b84f",
+    "Content/Blueprints/AI/ActionPresets/AP_Breach_Leader.uexp": "69d779b41a9570f88e1758920a140a038b8b8715dea41ba2035c470cb3b86a8b",
+    "Content/Blueprints/AI/ActionPresets/AP_SoloBreach.uasset": "99afb38a1d6c9b880d43b55a30dbd69ed2cda75d0d94ea26760c431c83ed536e",
+    "Content/Blueprints/AI/ActionPresets/AP_SoloBreach.uexp": "32a7ceab6b815ab8e080c2be82bf427bcb7d5336f97e80ee6fa3cd95535f1199",
+    "Content/Blueprints/AI/Squads/DefaultSquadRules.uasset": "afb6bbfbbc7d18eee788ca4b331a7c6b889b628ac42bfd9f90ae7593fde1bc82",
+    "Content/Blueprints/AI/Squads/DefaultSquadRules.uexp": "ae34e38926f626e38fdeaf8ffeca55c1bb562bab8b1c35e958b30025e4791a84",
+    "Content/Blueprints/AI/Archetypes/Core/Suspect_Terrorist.uasset": "898840b42654fb90fc982bff1cb1534e0fe2ae328c2b2e1457f173b825acfac0",
+    "Content/Blueprints/AI/Archetypes/Core/Suspect_Terrorist.uexp": "e3ad3cb042a37c7f17c1685ecd021ee0bedb61e2100228e2a8f1f689aa4b2f91",
+    "Content/Blueprints/AI/Squads/SquadActivities/BP_Squad_BreachandClear.uasset": "dc3744af50aaed20cf04d2babff4be764402add6939bc70c5bbf4f071edfa3f5",
+    "Content/Blueprints/AI/Squads/SquadActivities/BP_Squad_BreachandClear.uexp": "847b7342d32b684582c80c96c5b7f32d788ca4942a0c85e4686cef760a7f205e",
+    "Content/Blueprints/DataTables/AI/AIDataTable_Hotel.uasset": "27314c1009a2b6ef0be6d31be69da2b8cf9a758c2cd84ea9732561a22b753213",
+    "Content/Blueprints/DataTables/AI/AIDataTable_Hotel.uexp": "f1011cdca73f7c49d6f2d0338a3d774387502c1ac3df5ecf26d279399f873efb"
+  },
+  "reference_pak_sha256": "95bd29382d9fc43fcaf3dbf680a85c7112ca69efe4649e89990e8283a872fca9"
+}

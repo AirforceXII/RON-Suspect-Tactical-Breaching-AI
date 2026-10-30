@@ -1,0 +1,98 @@
+{
+  "reference_variant": "Sins-MLOBreach-HighWeight-StingerAlways-r1",
+  "not_included": [
+    "group-size changes",
+    "regroup weight changes",
+    "stackup timeout",
+    "ram",
+    "C2",
+    "UE4SS retaliation"
+  ],
+  "assets": [
+    {
+      "path": "Blueprints/AI/Squads/DefaultSquadRules",
+      "field": "SquadActivityData",
+      "before_count": 3,
+      "after_count": 5,
+      "append_classes": [
+        "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_BreachandClear.BP_Squad_BreachandClear_C",
+        "/Game/Blueprints/AI/Squads/SquadActivities/BP_Squad_SoloBreach.BP_Squad_SoloBreach_C"
+      ],
+      "source": "MLO_SquadRules [4,5]"
+    },
+    {
+      "path": "Blueprints/AI/Archetypes/Core/Suspect_Terrorist",
+      "field": "SquadActions",
+      "before_count": 7,
+      "after_count": 9,
+      "append": [
+        {
+          "index": 7,
+          "tag": "Squads.BreachAndClear.Leader",
+          "preset": "/Game/Blueprints/AI/ActionPresets/AP_Breach_Leader.AP_Breach_Leader"
+        },
+        {
+          "index": 8,
+          "tag": "Squads.BreachAndClear.Solo",
+          "preset": "/Game/Blueprints/AI/ActionPresets/AP_SoloBreach.AP_SoloBreach"
+        }
+      ],
+      "source": "Suspect_Tactical [5,11]"
+    },
+    {
+      "path": "Blueprints/DataTables/AI/AIDataTable_Hotel",
+      "rows": [
+        "sp_m_shooter_a",
+        "sp_m_shooter_c"
+      ],
+      "role_count_before": 5,
+      "role_count_after": 8,
+      "role_tags_append": [
+        "Squads.BreachAndClear.Leader",
+        "Squads.BreachAndClear.Support",
+        "Squads.BreachAndClear.Solo"
+      ],
+      "speech_value": "TowerMLO_01",
+      "speech_fields": 16,
+      "grenade_reference": "/Game/Blueprints/Items/WeaponsRevised/Grenade_Stinger_V2.Grenade_Stinger_V2_C",
+      "grenades_per_loadout": 3,
+      "loadout_counts": {
+        "sp_m_shooter_a": 3,
+        "sp_m_shooter_c": 2
+      },
+      "total_grenade_references_across_alternatives": 15
+    },
+    {
+      "path": "Blueprints/AI/ActionPresets/AP_Breach_Leader",
+      "field": "Action.Weight",
+      "before": 5.0,
+      "after": 20.0,
+      "optional_testing_change": true
+    },
+    {
+      "path": "Blueprints/AI/ActionPresets/AP_Breach_Follower",
+      "field": "Action.Weight",
+      "before": 5.0,
+      "after": 20.0,
+      "optional_testing_change": true
+    },
+    {
+      "path": "Blueprints/AI/ActionPresets/AP_SoloBreach",
+      "field": "Action.Weight",
+      "before": 5.0,
+      "after": 20.0,
+      "optional_testing_change": true
+    },
+    {
+      "path": "Blueprints/AI/Squads/SquadActivities/BP_Squad_BreachandClear",
+      "function": "SetCanUseItem",
+      "logic": "CanUseItem=true; return; EndOfScript",
+      "expressions_before": 14,
+      "expressions_after": 3,
+      "script_size_before": 390,
+      "script_size_after": 14,
+      "ubergraph_unchanged": true,
+      "kick_enum_preserved": 3
+    }
+  ]
+}
